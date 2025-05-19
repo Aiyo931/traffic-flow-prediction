@@ -1,2 +1,27 @@
-# traffic-flow-prediction
-A machine learning project for traffic flow prediction using weather and holiday data (Linear Regression &amp; XGBoost).
+# 交通流量预测项目（Traffic Flow Prediction）
+
+本项目基于交通传感器数据、天气数据与节假日信息，使用机器学习方法对交通流量进行预测。
+
+## 📁 项目内容
+- 使用原始交通数据（`traffic.csv`）
+- 合并天气数据后生成 `交通流量模型.csv`
+- 构建 `线性回归模型` 作为基线模型
+- 引入天气、节假日等影响因素进行建模优化
+- 最终使用 `XGBoost` 模型，预测效果显著提升
+
+## 🧪 模型评估结果
+- 最终模型：XGBoost
+- 评估指标：决定系数 R² = 0.7491
+- 说明：可较为准确地预测交通流量
+
+## 📘 技术栈
+- Python (Pandas, scikit-learn, xgboost, matplotlib)
+- Jupyter Notebook
+
+## 🧠 项目亮点
+- 将线性回归与机器学习模型对比分析
+- 融合天气因素提升预测精度
+- 可视化模型表现与特征影响
+
+## 👤 作者
+本项目由交通工程专业背景转向交通数据分析的学习者完成，旨在展示模型实践与业务理解能力。
